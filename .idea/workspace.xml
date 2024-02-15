@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3804967b-fe71-45f3-b89b-3227571f09f9" name="Changes" comment="The borders">
+    <list default="true" id="3804967b-fe71-45f3-b89b-3227571f09f9" name="Changes" comment="Acceleration of the figure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sunvvays"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d0dfc72d-9a18-42c7-b707-47e9f56192ea" />
+        <option name="url" value="https://github.com/sunvvays/Tetris.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -119,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707989308109</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The fall of the figure">
+      <option name="closed" value="true" />
+      <created>1707990071773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707990071773</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Acceleration of the figure">
+      <option name="closed" value="true" />
+      <created>1707990273520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707990273521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +166,8 @@
     <MESSAGE value="The black window" />
     <MESSAGE value="The playing field" />
     <MESSAGE value="The borders" />
-    <option name="LAST_COMMIT_MESSAGE" value="The borders" />
+    <MESSAGE value="The fall of the figure" />
+    <MESSAGE value="Acceleration of the figure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acceleration of the figure" />
   </component>
 </project>
