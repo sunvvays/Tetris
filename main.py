@@ -33,7 +33,7 @@ anim_count, anim_speed, anim_limit = 0, 60, 2000
 figure = deepcopy(choice(figures))
 
 bg = pygame.image.load('img/bg.jpg').convert()
-game_bg = pygame.image.load('img/bg2.jpg').convert()
+game_bg = pygame.image.load('img/bg3.jpg').convert()
 
 def check_borders():
     if figure[i].x < 0 or figure[i].x > W - 1:
