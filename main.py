@@ -35,13 +35,38 @@ figure = deepcopy(choice(figures))
 bg = pygame.image.load('img/bg.jpg').convert()
 game_bg = pygame.image.load('img/bg3.jpg').convert()
 
+get_color = lambda: (randrange(30, 256), randrange(30, 256), randrange(30, 256))
+color = get_color()
+
 def check_borders():
     if figure[i].x < 0 or figure[i].x > W - 1:
         return False
     elif figure[i].y > H - 1 or field[figure[i].y][figure[i].x]:
         return False
     return True
+def show_title_screen():
+    title_font = pygame.font.Font(None, 100)
+    title_text = title_font.render("Tetris", True, pygame.Color("white"))
+    title_rect = title_text.get_rect(center=(RES[0] // 2, RES[1] // 2 - 100))
 
+    subtitle_font = pygame.font.Font(None, 36)
+    subtitle_text = subtitle_font.render("Press any key to start", True, pygame.Color("white"))
+    subtitle_rect = subtitle_text.get_rect(center=(RES[0] // 2, RES[1] // 2))
+
+    sc.blit(bg, (0, 0))
+    sc.blit(title_text, title_rect)
+    sc.blit(subtitle_text, subtitle_rect)
+    pygame.display.flip()
+
+    waiting_for_key = True
+    while waiting_for_key:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                terminate()
+            elif event.type == pygame.KEYDOWN:
+                waiting_for_key = False
+
+show_title_screen()
 
 while True:
     dx, rotate = 0, False
