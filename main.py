@@ -1,5 +1,4 @@
 import sys
-
 import pygame
 from copy import deepcopy
 from random import choice, randrange
